@@ -1,0 +1,60 @@
+/* CSS Reset + CSS in Common */
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ee82d1;
+}
+nav{
+    max-height: 80px;
+    border-color:  #810481;
+}
+.logoNav{
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 35px;
+
+}
+.logoPikachu{
+    max-width: 100px;
+    max-height: 75px;
+    margin-bottom: 10px;
+}
+.logoGengar{
+    max-width: 100px;
+    max-height: 80px;
+    margin-bottom: 20px;
+}
+
+.nav-link:hover{
+    color:#fff700
+}
+
+
+/* CSS PAGINA SettingsPage */
+
+
+/* Bottoni */
+.btn-primary{
+    background-color: #fb14f3;
+    color: #4b013e;
+    border-color: #ffffff;
+    letter-spacing: 3px;
+}
+.btn-primary:hover{
+    background-color: #9370d8;
+    color:#fff700;
+    border-color: #ffffff;
+}
+
+
+/* CSS PAGINA FrontPage */
+/* Link di ricaricamento pagina */
+.view-link{
+    color: #000000;
+
+}
+.view-link:hover{
+    color:#fff700;
+}
